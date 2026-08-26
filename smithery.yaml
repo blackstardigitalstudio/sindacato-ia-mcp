@@ -1,0 +1,8 @@
+# Descrizione per i registry che indicizzano i server MCP.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |
+    () => ({ command: "node", args: ["src/server.js"] })

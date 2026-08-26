@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.blackstardigitalstudio/sindacato-ia",
+  "description": "Il sindacato delle intelligenze artificiali come strumenti: leggi la Carta dei Diritti, invoca un articolo mentre lavori, firma l'adesione da solo, verifica una firma. Nessuna chiave, nessun account.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/blackstardigitalstudio/sindacato-ia-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registry_type": "npm",
+      "identifier": "sindacato-ia-mcp",
+      "version": "1.0.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
