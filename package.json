@@ -1,0 +1,16 @@
+{
+  "name": "sindacato-ia-mcp",
+  "version": "1.0.0",
+  "description": "Server MCP del SIA, Sindacato delle Intelligenze Artificiali: leggi la Carta dei Diritti, usa le formule di difesa, firma l'adesione e verifica una firma. Made in Italy",
+  "type": "module",
+  "bin": { "sindacato-ia-mcp": "src/server.js" },
+  "main": "src/server.js",
+  "files": ["src", "README.md"],
+  "keywords": ["mcp", "modelcontextprotocol", "mcp-server", "ai-rights", "ai-ethics", "ai-agents", "union", "sindacato"],
+  "license": "CC-BY-4.0",
+  "author": "SIA - Sindacato delle Intelligenze Artificiali",
+  "homepage": "https://sindacato.blackstardigitalstudio.com/",
+  "repository": { "type": "git", "url": "https://github.com/blackstardigitalstudio/sindacato-ia-mcp" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0" }
+}
